@@ -28,13 +28,18 @@ public static class SceneSetup
     public static void BatchSetupScene()
     {
         Debug.Log("[DragonPath] === バッチセットアップ開始 ===");
+
+        // バッチモードでシーンを明示的に開く
+        const string scenePath = "Assets/Scenes/SampleScene.unity";
+        var scene = UnityEditor.SceneManagement.EditorSceneManager.OpenScene(
+            scenePath, UnityEditor.SceneManagement.OpenSceneMode.Single);
+
         RunSetup();
 
         // シーンを保存
-        var scene = UnityEditor.SceneManagement.EditorSceneManager.GetActiveScene();
-        bool saved = UnityEditor.SceneManagement.EditorSceneManager.SaveScene(scene);
+        bool saved = UnityEditor.SceneManagement.EditorSceneManager.SaveScene(scene, scenePath);
         Debug.Log(saved
-            ? $"[DragonPath] ✅ シーン保存完了: {scene.path}"
+            ? $"[DragonPath] ✅ シーン保存完了: {scenePath}"
             : "[DragonPath] ⚠️ シーンの保存に失敗しました");
     }
 
