@@ -44,7 +44,7 @@ public class DialogueUI : MonoBehaviour
 
         bool advance = Keyboard.current?.fKey.wasPressedThisFrame == true ||
                        Keyboard.current?.spaceKey.wasPressedThisFrame == true ||
-                       Keyboard.current?.returnKey.wasPressedThisFrame == true;
+                       Keyboard.current?.enterKey.wasPressedThisFrame == true;
 
         if (!advance) return;
 

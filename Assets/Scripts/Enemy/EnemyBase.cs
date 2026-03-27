@@ -105,11 +105,11 @@ public abstract class EnemyBase : MonoBehaviour
         }
 
         // アイテムドロップ
-        if (Random.value < dropChance && dropItemPrefab != null && dropItems != null && dropItems.Length > 0)
+        if (UnityEngine.Random.value < dropChance && dropItemPrefab != null && dropItems != null && dropItems.Length > 0)
         {
-            var item = dropItems[Random.Range(0, dropItems.Length)];
+            var item = dropItems[UnityEngine.Random.Range(0, dropItems.Length)];
             var go   = Instantiate(dropItemPrefab,
-                transform.position + Vector3.up * 0.5f + Random.insideUnitSphere * 0.5f,
+                transform.position + Vector3.up * 0.5f + UnityEngine.Random.insideUnitSphere * 0.5f,
                 Quaternion.identity);
             go.GetComponent<ItemPickup>()?.Init(item);
         }
