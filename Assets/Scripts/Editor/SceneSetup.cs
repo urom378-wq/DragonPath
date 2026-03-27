@@ -18,6 +18,28 @@ public static class SceneSetup
             "現在のシーンにゲームオブジェクトを自動生成します。\n既存のオブジェクトは上書きされません。\n\n続行しますか？", "はい", "キャンセル"))
             return;
 
+        RunSetup();
+    }
+
+    /// <summary>
+    /// バッチモード実行用エントリーポイント（ダイアログなし）
+    /// Unity -batchmode -executeMethod SceneSetup.BatchSetupScene
+    /// </summary>
+    public static void BatchSetupScene()
+    {
+        Debug.Log("[DragonPath] === バッチセットアップ開始 ===");
+        RunSetup();
+
+        // シーンを保存
+        var scene = UnityEditor.SceneManagement.EditorSceneManager.GetActiveScene();
+        bool saved = UnityEditor.SceneManagement.EditorSceneManager.SaveScene(scene);
+        Debug.Log(saved
+            ? $"[DragonPath] ✅ シーン保存完了: {scene.path}"
+            : "[DragonPath] ⚠️ シーンの保存に失敗しました");
+    }
+
+    private static void RunSetup()
+    {
         CreateManagers();
         CreateTerrain();
         CreatePlayer();
@@ -26,12 +48,11 @@ public static class SceneSetup
         CreateEnvironment();
         CreateUI();
 
-        Debug.Log("[DragonPath] シーンのセットアップが完了しました！\n" +
+        Debug.Log("[DragonPath] ✅ シーンのセットアップが完了しました！\n" +
                   "次のステップ:\n" +
-                  "1. アニメーターコントローラーをプレイヤー/敵に割り当てる\n" +
-                  "2. NavMesh を Bake する (Window > AI > Navigation)\n" +
-                  "3. Audio Clips を AudioManager にアサインする\n" +
-                  "4. UI の参照を手動で確認する");
+                  "1. NavMesh を Bake する (Window > AI > Navigation)\n" +
+                  "2. アニメーターコントローラーをプレイヤー/敵に割り当てる\n" +
+                  "3. Audio Clips を AudioManager にアサインする");
     }
 
     // ============================================================
