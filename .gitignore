@@ -1,0 +1,60 @@
+# Unity 生成ファイル
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# VisualStudio キャッシュ
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+
+# Rider
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Unity 特有
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# サブスタンス / PhotoShop 中間
+*.substance
+*.psd
+
+# TextMesh Pro (大容量アセットは除外)
+# Assets/TextMesh Pro/
+
+# ビルド成果物
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics
+crashlytics-build.properties
+
+# Burst キャッシュ
+/[Aa]ssets/[Bb]urst*
