@@ -168,7 +168,7 @@ public static class SceneSetup
         visual.transform.SetParent(player.transform);
         visual.transform.localPosition = Vector3.zero;
         visual.transform.localScale    = new Vector3(0.8f, 1f, 0.8f);
-        DestroyImmediate(visual.GetComponent<CapsuleCollider>());
+        Object.DestroyImmediate(visual.GetComponent<CapsuleCollider>());
         var vr = visual.GetComponent<Renderer>();
         if (vr != null) vr.sharedMaterial = CreateColorMaterial(new Color(0.2f, 0.5f, 0.9f));
 
@@ -179,7 +179,7 @@ public static class SceneSetup
         sword.transform.localPosition = new Vector3(0.6f, 0.1f, 0.4f);
         sword.transform.localScale    = new Vector3(0.1f, 0.8f, 0.1f);
         sword.transform.localRotation = Quaternion.Euler(0f, 0f, -25f);
-        DestroyImmediate(sword.GetComponent<Collider>());
+        Object.DestroyImmediate(sword.GetComponent<Collider>());
         var sr = sword.GetComponent<Renderer>();
         if (sr != null) sr.sharedMaterial = CreateColorMaterial(new Color(0.8f, 0.8f, 0.9f));
 
@@ -286,7 +286,7 @@ public static class SceneSetup
         visual.transform.SetParent(enemy.transform);
         visual.transform.localPosition = Vector3.zero;
         visual.transform.localScale    = new Vector3(0.9f, 0.9f, 0.9f);
-        DestroyImmediate(visual.GetComponent<Collider>());
+        Object.DestroyImmediate(visual.GetComponent<Collider>());
         var vr = visual.GetComponent<Renderer>();
         if (vr != null) vr.sharedMaterial = CreateColorMaterial(new Color(0.8f, 0.2f, 0.2f));
 
@@ -314,7 +314,7 @@ public static class SceneSetup
         body.name = "Body";
         body.transform.SetParent(boss.transform);
         body.transform.localPosition = Vector3.zero;
-        DestroyImmediate(body.GetComponent<Collider>());
+        Object.DestroyImmediate(body.GetComponent<Collider>());
         var br = body.GetComponent<Renderer>();
         if (br != null) br.sharedMaterial = CreateColorMaterial(new Color(0.3f, 0.05f, 0.05f));
 
