@@ -554,18 +554,20 @@ public static class SceneSetup
     {
         var go   = new GameObject("Notification");
         go.transform.SetParent(parent.transform);
+
+        // Image を先に追加することで RectTransform が自動生成される
+        var bg   = go.AddComponent<Image>();
+        bg.color = new Color(0f, 0f, 0f, 0.7f);
+
         var cg   = go.AddComponent<CanvasGroup>();
         cg.alpha = 0f;
 
         var rect = go.GetComponent<RectTransform>();
-        rect.anchorMin = new Vector2(0.5f, 1f);
-        rect.anchorMax = new Vector2(0.5f, 1f);
-        rect.pivot     = new Vector2(0.5f, 1f);
+        rect.anchorMin        = new Vector2(0.5f, 1f);
+        rect.anchorMax        = new Vector2(0.5f, 1f);
+        rect.pivot            = new Vector2(0.5f, 1f);
         rect.anchoredPosition = new Vector2(0f, -60f);
-        rect.sizeDelta = new Vector2(400f, 50f);
-
-        var bg   = go.AddComponent<Image>();
-        bg.color = new Color(0f, 0f, 0f, 0.7f);
+        rect.sizeDelta        = new Vector2(400f, 50f);
 
         var textGo = new GameObject("Text");
         textGo.transform.SetParent(go.transform);
