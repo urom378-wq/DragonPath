@@ -98,7 +98,7 @@ public abstract class EnemyBase : MonoBehaviour
         IsDead = true;
 
         // 経験値・リワード
-        var player = FindFirstObjectByType<PlayerStats>();
+        var player = FindAnyObjectByType<PlayerStats>();
         if (player != null)
         {
             player.AddExperience(xpReward);

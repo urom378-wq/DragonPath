@@ -31,7 +31,7 @@ public class NPCController : InteractableBase
         promptMessage = $"F: {npcName} に話しかける";
         _anim = GetComponentInChildren<Animator>();
 
-        var p = FindFirstObjectByType<PlayerController>();
+        var p = FindAnyObjectByType<PlayerController>();
         if (p != null) _playerTransform = p.transform;
     }
 
@@ -59,7 +59,7 @@ public class NPCController : InteractableBase
     protected override void OnInteract(PlayerStats player)
     {
         if (dialogueLines == null || dialogueLines.Length == 0) return;
-        if (dialogueUI == null) dialogueUI = FindFirstObjectByType<DialogueUI>();
+        if (dialogueUI == null) dialogueUI = FindAnyObjectByType<DialogueUI>();
         if (dialogueUI == null) return;
 
         dialogueUI.StartDialogue(npcName, npcPortrait, dialogueLines);

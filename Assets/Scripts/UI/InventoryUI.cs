@@ -37,7 +37,7 @@ public class InventoryUI : MonoBehaviour
     // ============================================================
     private void Start()
     {
-        _inventory = FindFirstObjectByType<Inventory>();
+        _inventory = FindAnyObjectByType<Inventory>();
         if (_inventory != null)
         {
             _inventory.OnInventoryChanged += Refresh;

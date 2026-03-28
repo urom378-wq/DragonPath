@@ -69,7 +69,7 @@ public class UIManager : MonoBehaviour
         SetupSliders();
 
         GameManager.OnStateChanged += OnGameStateChanged;
-        var playerStats = FindFirstObjectByType<PlayerStats>();
+        var playerStats = FindAnyObjectByType<PlayerStats>();
         if (playerStats != null)
             playerStats.OnDamageReceived += ShowDamageEffect;
 
@@ -161,7 +161,7 @@ public class UIManager : MonoBehaviour
         yield return new WaitForSecondsRealtime(1.5f);
         yield return StartCoroutine(FadeOut(0.8f));
 
-        var stats = FindFirstObjectByType<PlayerStats>();
+        var stats = FindAnyObjectByType<PlayerStats>();
         if (gameOverStatsText != null && stats != null)
         {
             gameOverStatsText.text =
@@ -179,7 +179,7 @@ public class UIManager : MonoBehaviour
         yield return new WaitForSecondsRealtime(2f);
         yield return StartCoroutine(FadeOut(1f));
 
-        var stats = FindFirstObjectByType<PlayerStats>();
+        var stats = FindAnyObjectByType<PlayerStats>();
         if (victoryStatsText != null && stats != null)
         {
             victoryStatsText.text =

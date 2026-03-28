@@ -56,10 +56,10 @@ public class HUDController : MonoBehaviour
     // ============================================================
     private void Start()
     {
-        _stats     = FindFirstObjectByType<PlayerStats>();
-        _combat    = FindFirstObjectByType<PlayerCombat>();
-        _ctrl      = FindFirstObjectByType<PlayerController>();
-        _inventory = FindFirstObjectByType<Inventory>();
+        _stats     = FindAnyObjectByType<PlayerStats>();
+        _combat    = FindAnyObjectByType<PlayerCombat>();
+        _ctrl      = FindAnyObjectByType<PlayerController>();
+        _inventory = FindAnyObjectByType<Inventory>();
 
         if (_stats != null)
         {

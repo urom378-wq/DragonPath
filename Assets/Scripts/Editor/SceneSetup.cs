@@ -59,7 +59,7 @@ public static class SceneSetup
             if (go != null) Object.DestroyImmediate(go);
         }
         // 岩・木を名前プレフィックスで削除
-        foreach (var go in Object.FindObjectsByType<GameObject>(FindObjectsSortMode.None))
+        foreach (var go in Object.FindObjectsByType<GameObject>(FindObjectsInactive.Include, FindObjectsSortMode.None))
         {
             if (go == null) continue;
             if (go.name.StartsWith("Rock_") || go.name.StartsWith("Tree_") ||

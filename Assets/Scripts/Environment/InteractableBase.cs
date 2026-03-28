@@ -21,7 +21,7 @@ public abstract class InteractableBase : MonoBehaviour
     // ============================================================
     protected virtual void Start()
     {
-        var p = FindFirstObjectByType<PlayerController>();
+        var p = FindAnyObjectByType<PlayerController>();
         if (p != null) _player = p.transform;
     }
 

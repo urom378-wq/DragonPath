@@ -27,7 +27,7 @@ public class ItemPickup : MonoBehaviour
     {
         _startPos    = transform.position;
         _bobTimer    = Random.Range(0f, Mathf.PI * 2f);
-        _inventory   = FindFirstObjectByType<Inventory>();
+        _inventory   = FindAnyObjectByType<Inventory>();
         _initialized = item != null;
     }
 
@@ -35,7 +35,7 @@ public class ItemPickup : MonoBehaviour
     {
         item  = itemData;
         count = itemCount;
-        _inventory   = FindFirstObjectByType<Inventory>();
+        _inventory   = FindAnyObjectByType<Inventory>();
         _startPos    = transform.position;
         _initialized = true;
     }
@@ -51,7 +51,7 @@ public class ItemPickup : MonoBehaviour
         transform.Rotate(0f, rotSpeed * Time.deltaTime, 0f);
 
         // 自動拾得チェック
-        var player = FindFirstObjectByType<PlayerController>();
+        var player = FindAnyObjectByType<PlayerController>();
         if (player != null && Vector3.Distance(transform.position, player.transform.position) <= autoPickupRange)
         {
             Pickup();

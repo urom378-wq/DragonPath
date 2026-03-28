@@ -106,7 +106,7 @@ public class DragonBossAI : EnemyBase
 
     private void Start()
     {
-        var p = FindFirstObjectByType<PlayerController>();
+        var p = FindAnyObjectByType<PlayerController>();
         if (p != null)
         {
             _player      = p.transform;

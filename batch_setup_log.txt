@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.4/staging' branch; Version is '6000.4.0f1 (8cf496087c8f) revision 9237654'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ja' Physical Memory: 32696 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Yoshiko" at "2026-03-27T21:52:21.1642992Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Yoshiko" at "2026-03-28T07:24:19.8014646Z"
 System  architecture: x64
 Process architecture: x64
-Date: 2026-03-27T21:52:21Z
+Date: 2026-03-28T07:24:19Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Unity.exe
@@ -55,33 +55,33 @@ C:/Users/kusam/DragonPath
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [15764]  Target information:
+Player connection [22552]  Target information:
 
-Player connection [15764]  * "[IP] 192.168.1.207 [Port] 55505 [Flags] 2 [Guid] 1081555470 [EditorId] 1081555470 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U5OVHIO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22552]  * "[IP] 192.168.1.207 [Port] 55505 [Flags] 2 [Guid] 3359333620 [EditorId] 3359333620 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U5OVHIO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15764]  * "[IP] 10.5.0.2 [Port] 55505 [Flags] 2 [Guid] 1081555470 [EditorId] 1081555470 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U5OVHIO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22552]  * "[IP] 10.5.0.2 [Port] 55505 [Flags] 2 [Guid] 3359333620 [EditorId] 3359333620 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U5OVHIO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15764] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [15764] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22552] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22552] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Package Manager] Connected to IPC stream "Upm-15600" after 0.8 seconds.
+[Package Manager] Connected to IPC stream "Upm-25504" after 0.7 seconds.
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Yoshiko"
 [Licensing::IpcConnector] LicenseClient-Yoshiko channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Yoshiko-6000.4.0" at "2026-03-27T21:52:23.6334686Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Yoshiko-6000.4.0" at "2026-03-28T07:24:22.2643846Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              2aab02540f2642dd9abe76469e271aaa
-  Correlation Id:          24810144783000506eec68b3bfc958d0
-  External correlation Id: 2103400429629822870
+  Session Id:              c94cd5a69d9f45aa93aaed405296d38a
+  Correlation Id:          ef06cace8be0157a0ec4979b4145be1d
+  External correlation Id: 5036558264900018025
   Machine Id:              kQ+/1dxljoRLVvsUg+EPbmf8dZE=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Yoshiko-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 2.33s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Yoshiko-6000.4.0-notifications" at "2026-03-27T21:52:25.9678348Z"
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Yoshiko-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 2.54s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Yoshiko-6000.4.0-notifications" at "2026-03-28T07:24:24.8075645Z"
 [Licensing::Module] Error: Access token is unavailable; failed to update
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -91,10 +91,11 @@ Input System module state changed to: Initialized.
   Expiration: Unlimited
 [Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
 [Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] Licensing Background thread has ended after 4.81s
-[Licensing::Module] Licensing is initialized (took 3.72s).
+[Licensing::Module] Licensing Background thread has ended after 5.02s
+[Licensing::Module] Licensing is initialized (took 3.95s).
 [Licensing::Client] Successfully resolved entitlement details
 Library Redirect Path: Library/
+Unable to parse file ProjectSettings/TagManager.asset: [Parser Failure at line 43: Expect ':' between key and value within mapping]
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -114,7 +115,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
 CodeReloadManager initialized
 Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
 Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
@@ -124,30 +125,30 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016272 seconds.
+Registered in 0.019390 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.851 seconds
-Domain Reload Profiling: 2121ms
-	BeginReloadAssembly (436ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (88ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (229ms)
-	LoadAllAssembliesAndSetupDomain (485ms)
-		LoadAssemblies (377ms)
-		AnalyzeDomain (466ms)
-			TypeCache.Refresh (464ms)
-				TypeCache.ScanAssembly (435ms)
-	FinalizeReload (854ms)
+- Finished resetting the current domain, in  1.007 seconds
+Domain Reload Profiling: 2481ms
+	BeginReloadAssembly (487ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (103ms)
+	RebuildNativeTypeToScriptingClass (46ms)
+	initialDomainReloadingComplete (282ms)
+	LoadAllAssembliesAndSetupDomain (553ms)
+		LoadAssemblies (434ms)
+		AnalyzeDomain (525ms)
+			TypeCache.Refresh (521ms)
+				TypeCache.ScanAssembly (489ms)
+	FinalizeReload (1010ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (112ms)
-			BeforeProcessingInitializeOnLoad (190ms)
-			ProcessInitializeOnLoadAttributes (253ms)
-			ProcessInitializeOnLoadMethodAttributes (162ms)
+			InitializePlatformSupportModulesInManaged (139ms)
+			BeforeProcessingInitializeOnLoad (222ms)
+			ProcessInitializeOnLoadAttributes (245ms)
+			ProcessInitializeOnLoadMethodAttributes (236ms)
 [Licensing::Client] Successfully resolved entitlement details
 Application.AssetDatabase Initial Refresh Start
 [Package Manager] Restoring resolved packages state from cache
@@ -230,18 +231,18 @@ info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
       Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
 info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
-      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 72.2890ms
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 80.2802ms
 Starting: C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
 WorkingDir: C:/Users/kusam/DragonPath
 info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
       Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
       Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
-DisplayProgressbar: Compiling Scripts
 warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
       Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
 warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
       Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+DisplayProgressbar: Compiling Scripts
 info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
       Resolved Unity.Burst.Cecil, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@07790c2d06d9\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll
 info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
@@ -249,13 +250,13 @@ info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
       Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
 info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
-      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 192.0793ms
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 169.8323ms
 info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
       Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
       Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
 info: Unity.ILPP.Runner.PostProcessingPipeline[0]
-      Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 137 defines and 340 references
+      Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 139 defines and 320 references
 info: Unity.ILPP.Runner.PostProcessingPipeline[0]
       processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
 info: Unity.ILPP.Runner.PostProcessingPipeline[0]
@@ -273,10 +274,78 @@ info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
       Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
 info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
-      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 739.7736ms
-ExitCode: 0 Duration: 5s695ms
-[712/906    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
-[902/906    3s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 5006.9916ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 137 defines and 340 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 28.1135ms
+ExitCode: 0 Duration: 15s
+[711/906    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY       6s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[898/906    8s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets\Scripts\Environment\NPCController.cs(34,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\Environment\InteractableBase.cs(24,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\Enemy\EnemyAI.cs(75,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\Environment\NPCController.cs(62,46): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\Enemy\EnemyBase.cs(101,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\Player\PlayerController.cs(82,29): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\Items\ItemPickup.cs(30,24): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\Items\ItemPickup.cs(38,24): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\Items\ItemPickup.cs(54,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\Enemy\DragonBossAI.cs(109,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\UI\InventoryUI.cs(40,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\UI\HUDController.cs(59,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\UI\HUDController.cs(60,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\UI\HUDController.cs(61,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\UI\HUDController.cs(62,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\UI\UIManager.cs(72,27): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\UI\UIManager.cs(164,21): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\UI\UIManager.cs(182,21): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\Player\PlayerCombat.cs(334,15): warning CS0219: The variable 'buffMult' is assigned but its value is never used
+[899/906    5s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 139 defines and 320 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[900/906    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[901/906    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[902/906    6s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\Scripts\Editor\SceneSetup.cs(62,65): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Scripts\Editor\SceneSetup.cs(62,28): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
 [903/906    0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
 Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 137 defines and 340 references
 
@@ -287,8 +356,29 @@ running Unity.Jobs.CodeGen.JobsILPostProcessor
 running zzzUnity.Burst.CodeGen.BurstILPostProcessor
 [904/906    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
 [905/906    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-*** Tundra build success (5.62 seconds), 5 items updated, 906 evaluated
-AssetDatabase: script compilation time: 6.645497s
+*** Tundra build success (15.91 seconds), 9 items updated, 906 evaluated
+Assets\Scripts\Environment\NPCController.cs(34,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\Environment\InteractableBase.cs(24,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\Enemy\EnemyAI.cs(75,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\Environment\NPCController.cs(62,46): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\Enemy\EnemyBase.cs(101,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\Player\PlayerController.cs(82,29): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\Items\ItemPickup.cs(30,24): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\Items\ItemPickup.cs(38,24): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\Items\ItemPickup.cs(54,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\Enemy\DragonBossAI.cs(109,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\UI\InventoryUI.cs(40,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\UI\HUDController.cs(59,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\UI\HUDController.cs(60,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\UI\HUDController.cs(61,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\UI\HUDController.cs(62,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\UI\UIManager.cs(72,27): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\UI\UIManager.cs(164,21): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\UI\UIManager.cs(182,21): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\Player\PlayerCombat.cs(334,15): warning CS0219: The variable 'buffMult' is assigned but its value is never used
+Assets\Scripts\Editor\SceneSetup.cs(62,65): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Scripts\Editor\SceneSetup.cs(62,28): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+AssetDatabase: script compilation time: 16.990810s
 Begin MonoManager ReloadAssembly
 Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
 Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
@@ -319,110 +409,114 @@ Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Un
 Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
 Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
 Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
-Refreshing native plugins compatible for Editor in 4.92 ms, found 3 plugins.
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) (LibraryAssetImporter)Unable to parse file ProjectSettings/TagManager.asset: [Parser Failure at line 43: Expect ':' between key and value within mapping]
+ -> (Import Result ID: '4941922a6c128fbefb617633da689b6d') in 0.049174 seconds [static dependencies only]. Details - ImportResultOutputID=28c8b39e8fe18a0fd7dbf4e83f943962 DependenciesID=918752bf750b4827e96df19b24e9c363 StaticDependenciesID=cc251b94d9e2cc1dedd988861dde2762 
+Refreshing native plugins compatible for Editor in 4.67 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  8.270 seconds
-Domain Reload Profiling: 10945ms
-	BeginReloadAssembly (615ms)
-		DisableScriptedObjects (14ms)
-		CreateAndSetChildDomain (166ms)
-	RebuildCommonClasses (96ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (396ms)
-	LoadAllAssembliesAndSetupDomain (1538ms)
-		LoadAssemblies (1320ms)
-		AnalyzeDomain (533ms)
-			TypeCache.Refresh (386ms)
-				TypeCache.ScanAssembly (367ms)
-			BuildScriptInfoCaches (123ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (8271ms)
+- Finished resetting the current domain, in  8.488 seconds
+Domain Reload Profiling: 11643ms
+	BeginReloadAssembly (671ms)
+		DisableScriptedObjects (28ms)
+		CreateAndSetChildDomain (179ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (685ms)
+	LoadAllAssembliesAndSetupDomain (1677ms)
+		LoadAssemblies (1452ms)
+		AnalyzeDomain (560ms)
+			TypeCache.Refresh (406ms)
+				TypeCache.ScanAssembly (387ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (8489ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (71ms)
-			BeforeProcessingInitializeOnLoad (470ms)
-			ProcessInitializeOnLoadAttributes (6929ms)
-			ProcessInitializeOnLoadMethodAttributes (183ms)
-			AfterProcessingInitializeOnLoad (59ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 10.45 ms, found 3 plugins.
+			InitializePlatformSupportModulesInManaged (82ms)
+			BeforeProcessingInitializeOnLoad (566ms)
+			ProcessInitializeOnLoadAttributes (6789ms)
+			ProcessInitializeOnLoadMethodAttributes (201ms)
+			AfterProcessingInitializeOnLoad (63ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 4.82 ms, found 3 plugins.
 (Values over 0.050ms)
-Asset Pipeline Refresh (id=cd7aec4c16aa4ce42941c357ed24391a): Total: 19.644 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+Asset Pipeline Refresh (id=1566c996e7d04644391d43c5ce73eb65): Total: 30.698 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
 	Summary:
-		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=9404 ms
-		Asset DB Callback time: managed=566 ms, native=69 ms
-		Scripting: domain reloads=1, domain reload time=2722 ms, compile time=6649 ms, other=228 ms
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=7 ms, native=9732 ms
+		Asset DB Callback time: managed=449 ms, native=63 ms
+		Scripting: domain reloads=1, domain reload time=3208 ms, compile time=16994 ms, other=240 ms
 		Project Asset Count: scripts=1274, non-scripts=2332
-		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Asset File Changes: new=0, changed=3, moved=0, deleted=0
 		Scan Filter Count: 0
-	InvokePackagesCallback: 57.635ms
-	ApplyChangesToAssetFolders: 1.616ms
-	Scan: 339.229ms
-	OnSourceAssetsModified: 1.403ms
-	CategorizeScriptCompilationAssets: 113.131ms
-	ProcessAssetsWithTransientArtifactChanges: 161.389ms
-	CategorizeAssets: 85.697ms
-	CompileScripts: 6648.758ms
-	ImportOutOfDateAssets: 8295.585ms (8292.023ms without children)
-		UnloadImportedAssets: 1.464ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.904ms
-		OnDemandSchedulerStart: 1.150ms
-	PostProcessAllAssets: 571.468ms
-		XRBuildSystem.XRAssetImported 2.625ms
-		VCAutoAddAssetPostprocess 2.415ms
-		PostProcessCallbackCreateDeferredMaterials 0.060ms
-		MonoPostProcessAllAssets: 565.207ms
-			AssetPostprocessor.OnPostprocessAllAssets 340.598ms
-			StyleCatalogPostProcessor.OnPostprocessAllAssets 92.359ms
-			BuilderAssetPostprocessor.OnPostprocessAllAssets 32.970ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 28.570ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.955ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 4.283ms
-			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 4.242ms
-			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 2.996ms
-			AssetChangedListener.OnPostprocessAllAssets 2.855ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.759ms
-			MaterialPostprocessor.OnPostprocessAllAssets 1.577ms
-			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.394ms
-			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.060ms
-			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.963ms
-			AudioMixerPostprocessor.OnPostprocessAllAssets 0.943ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.921ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.805ms
-			TextAssetPostProcessor.OnPostprocessAllAssets 0.743ms
-			AssetEvents.OnPostprocessAllAssets 0.667ms
-			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.603ms
-			PostProcessor.OnPostprocessAllAssets 0.581ms
-			ConfigAssetsTracker.OnPostprocessAllAssets 0.443ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.431ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.385ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.385ms
-			AudioContainerPostProcessor.OnPostprocessAllAssets 0.349ms
-			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.327ms
-			SamplePostprocessor.OnPostprocessAllAssets 0.306ms
-			SyncVS.PostprocessSyncProject 0.306ms
-			SpeedTreePostProcessor.OnPostprocessAllAssets 0.293ms
-	PostAssetChangesProfiler: 13.395ms
-	UnloadStreamsBegin: 5.240ms
-	PersistCurrentRevisions: 0.178ms
-	GenerateScriptTypeHashes: 6.224ms
-	GenerateScriptTypeSerializationHashes: 12.921ms
-	Untracked: 3342.667ms
+	InvokePackagesCallback: 59.160ms
+	ApplyChangesToAssetFolders: 2.096ms
+	Scan: 338.552ms
+	OnSourceAssetsModified: 1.451ms
+	CategorizeScriptCompilationAssets: 123.291ms
+	ProcessAssetsWithTransientArtifactChanges: 181.894ms
+	CategorizeAssets: 93.234ms
+	CompileScripts: 16993.624ms
+	ImportOutOfDateAssets: 8571.731ms (8510.997ms without children)
+		ImportManagerImport: 57.328ms (7.370ms without children)
+			UpdateCategorizedAssets: 0.061ms
+		UnloadImportedAssets: 1.626ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.855ms
+		OnDemandSchedulerStart: 0.886ms
+	PostProcessAllAssets: 454.415ms
+		XRBuildSystem.XRAssetImported 2.535ms
+		VCAutoAddAssetPostprocess 2.211ms
+		PostProcessCallbackCreateDeferredMaterials 0.068ms
+		MonoPostProcessAllAssets: 447.938ms
+			AssetPostprocessor.OnPostprocessAllAssets 309.511ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 51.364ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 24.128ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 15.066ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.795ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 3.633ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 2.853ms
+			AssetChangedListener.OnPostprocessAllAssets 2.577ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.343ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.564ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.372ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.979ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.857ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.755ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.709ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.702ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.633ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.611ms
+			PostProcessor.OnPostprocessAllAssets 0.544ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.527ms
+			AssetEvents.OnPostprocessAllAssets 0.461ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.393ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.338ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.332ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.297ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.262ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.258ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.255ms
+			SyncVS.PostprocessSyncProject 0.199ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.163ms
+	PostAssetChangesProfiler: 7.040ms
+	UnloadStreamsBegin: 5.976ms
+	PersistCurrentRevisions: 0.315ms
+	GenerateScriptTypeHashes: 5.951ms
+	GenerateScriptTypeSerializationHashes: 12.596ms
+	Untracked: 3855.753ms
 
 Application.AssetDatabase Initial Refresh End
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Scanning for USB devices : 4.968ms
+Scanning for USB devices : 12.677ms
 Initializing Unity extensions:
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-DragonPath
 Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6322 unused Assets / (3.1 MB). Loaded Objects now: 7157.
-Memory consumption went from 199.6 MB to 196.5 MB.
-Total: 19.732000 ms (FindLiveObjects: 1.032500 ms CreateObjectMapping: 0.774900 ms MarkObjects: 13.998700 ms  DeleteObjects: 3.921000 ms)
+Unloading 6322 unused Assets / (3.2 MB). Loaded Objects now: 7159.
+Memory consumption went from 202.4 MB to 199.2 MB.
+Total: 16.975100 ms (FindLiveObjects: 0.935200 ms CreateObjectMapping: 0.706300 ms MarkObjects: 12.086200 ms  DeleteObjects: 3.242300 ms)
 
 [DragonPath] === バッチセットアップ開始 ===
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
@@ -436,16 +530,28 @@ SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:30)
 (Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 30)
 
 Opening scene 'Assets/Scenes/SampleScene.unity'
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Assets/Scenes/SampleScene.unity'
-	Deserialize:            22.739 ms
-	Integration:            326.723 ms
-	Integration of assets:  0.006 ms
-	Thread Wait Time:       0.010 ms
-	Total Operation Time:   349.479 ms
-Unloading 2 unused Assets / (1.1 KB). Loaded Objects now: 7176.
-Memory consumption went from 183.9 MB to 183.9 MB.
-Total: 25.805900 ms (FindLiveObjects: 1.028200 ms CreateObjectMapping: 0.447100 ms MarkObjects: 24.288100 ms  DeleteObjects: 0.040100 ms)
+	Deserialize:            83.797 ms
+	Integration:            368.793 ms
+	Integration of assets:  0.658 ms
+	Thread Wait Time:       0.002 ms
+	Total Operation Time:   453.249 ms
+Unloading 2 unused Assets / (Unknown). Loaded Objects now: 8020.
+Memory consumption went from 189.5 MB to 189.7 MB.
+Total: 11.365300 ms (FindLiveObjects: 1.090600 ms CreateObjectMapping: 0.377900 ms MarkObjects: 9.856900 ms  DeleteObjects: 0.037700 ms)
+
+[DragonPath] 🗑 シーンクリア完了
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SceneSetup:ClearScene () (at Assets/Scripts/Editor/SceneSetup.cs:73)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:38)
+
+(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 73)
 
 [DragonPath] ✅ Managers 生成完了
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
@@ -454,21 +560,11 @@ UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOpt
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-SceneSetup:CreateManagers () (at Assets/Scripts/Editor/SceneSetup.cs:85)
-SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:48)
-SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+SceneSetup:CreateManagers () (at Assets/Scripts/Editor/SceneSetup.cs:115)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:78)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:39)
 
-(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 85)
-
-Tag: Ground is not defined.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.GameObject:set_tag (string)
-SceneSetup:CreateTerrain () (at Assets/Scripts/Editor/SceneSetup.cs:98)
-SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:49)
-SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
-
-[Assets/Scripts/Editor/SceneSetup.cs line 98]
+(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 115)
 
 [DragonPath] ✅ Terrain 生成完了
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
@@ -477,11 +573,11 @@ UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOpt
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-SceneSetup:CreateTerrain () (at Assets/Scripts/Editor/SceneSetup.cs:147)
-SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:49)
-SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+SceneSetup:CreateTerrain () (at Assets/Scripts/Editor/SceneSetup.cs:177)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:79)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:39)
 
-(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 147)
+(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 177)
 
 [DragonPath] ✅ Player 生成完了
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
@@ -490,11 +586,11 @@ UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOpt
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-SceneSetup:CreatePlayer () (at Assets/Scripts/Editor/SceneSetup.cs:209)
-SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:50)
-SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+SceneSetup:CreatePlayer () (at Assets/Scripts/Editor/SceneSetup.cs:239)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:80)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:39)
 
-(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 209)
+(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 239)
 
 [DragonPath] ✅ Camera 生成完了
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
@@ -503,88 +599,88 @@ UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOpt
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-SceneSetup:CreateCamera () (at Assets/Scripts/Editor/SceneSetup.cs:250)
-SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:51)
-SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+SceneSetup:CreateCamera () (at Assets/Scripts/Editor/SceneSetup.cs:280)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:81)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:39)
 
-(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 250)
-
-A game object can only be in one layer. The layer needs to be in the range [0...31]
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.GameObject:set_layer (int)
-SceneSetup:CreateEnemyObject (string,UnityEngine.Vector3) (at Assets/Scripts/Editor/SceneSetup.cs:285)
-SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:272)
-SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:52)
-SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
-
-[Assets/Scripts/Editor/SceneSetup.cs line 272]
+(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 280)
 
 A game object can only be in one layer. The layer needs to be in the range [0...31]
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.GameObject:set_layer (int)
-SceneSetup:CreateEnemyObject (string,UnityEngine.Vector3) (at Assets/Scripts/Editor/SceneSetup.cs:285)
-SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:272)
-SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:52)
-SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+SceneSetup:CreateEnemyObject (string,UnityEngine.Vector3) (at Assets/Scripts/Editor/SceneSetup.cs:315)
+SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:302)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:82)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:39)
 
-[Assets/Scripts/Editor/SceneSetup.cs line 272]
-
-A game object can only be in one layer. The layer needs to be in the range [0...31]
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.GameObject:set_layer (int)
-SceneSetup:CreateEnemyObject (string,UnityEngine.Vector3) (at Assets/Scripts/Editor/SceneSetup.cs:285)
-SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:272)
-SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:52)
-SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
-
-[Assets/Scripts/Editor/SceneSetup.cs line 272]
+[Assets/Scripts/Editor/SceneSetup.cs line 302]
 
 A game object can only be in one layer. The layer needs to be in the range [0...31]
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.GameObject:set_layer (int)
-SceneSetup:CreateEnemyObject (string,UnityEngine.Vector3) (at Assets/Scripts/Editor/SceneSetup.cs:285)
-SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:272)
-SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:52)
-SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+SceneSetup:CreateEnemyObject (string,UnityEngine.Vector3) (at Assets/Scripts/Editor/SceneSetup.cs:315)
+SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:302)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:82)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:39)
 
-[Assets/Scripts/Editor/SceneSetup.cs line 272]
-
-A game object can only be in one layer. The layer needs to be in the range [0...31]
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.GameObject:set_layer (int)
-SceneSetup:CreateEnemyObject (string,UnityEngine.Vector3) (at Assets/Scripts/Editor/SceneSetup.cs:285)
-SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:272)
-SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:52)
-SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
-
-[Assets/Scripts/Editor/SceneSetup.cs line 272]
+[Assets/Scripts/Editor/SceneSetup.cs line 302]
 
 A game object can only be in one layer. The layer needs to be in the range [0...31]
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.GameObject:set_layer (int)
-SceneSetup:CreateEnemyObject (string,UnityEngine.Vector3) (at Assets/Scripts/Editor/SceneSetup.cs:285)
-SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:272)
-SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:52)
-SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+SceneSetup:CreateEnemyObject (string,UnityEngine.Vector3) (at Assets/Scripts/Editor/SceneSetup.cs:315)
+SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:302)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:82)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:39)
 
-[Assets/Scripts/Editor/SceneSetup.cs line 272]
+[Assets/Scripts/Editor/SceneSetup.cs line 302]
 
 A game object can only be in one layer. The layer needs to be in the range [0...31]
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.GameObject:set_layer (int)
-SceneSetup:CreateDragonBoss (UnityEngine.Vector3,UnityEngine.Transform) (at Assets/Scripts/Editor/SceneSetup.cs:313)
-SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:277)
-SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:52)
-SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+SceneSetup:CreateEnemyObject (string,UnityEngine.Vector3) (at Assets/Scripts/Editor/SceneSetup.cs:315)
+SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:302)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:82)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:39)
 
-[Assets/Scripts/Editor/SceneSetup.cs line 277]
+[Assets/Scripts/Editor/SceneSetup.cs line 302]
+
+A game object can only be in one layer. The layer needs to be in the range [0...31]
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:set_layer (int)
+SceneSetup:CreateEnemyObject (string,UnityEngine.Vector3) (at Assets/Scripts/Editor/SceneSetup.cs:315)
+SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:302)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:82)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:39)
+
+[Assets/Scripts/Editor/SceneSetup.cs line 302]
+
+A game object can only be in one layer. The layer needs to be in the range [0...31]
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:set_layer (int)
+SceneSetup:CreateEnemyObject (string,UnityEngine.Vector3) (at Assets/Scripts/Editor/SceneSetup.cs:315)
+SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:302)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:82)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:39)
+
+[Assets/Scripts/Editor/SceneSetup.cs line 302]
+
+A game object can only be in one layer. The layer needs to be in the range [0...31]
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:set_layer (int)
+SceneSetup:CreateDragonBoss (UnityEngine.Vector3,UnityEngine.Transform) (at Assets/Scripts/Editor/SceneSetup.cs:343)
+SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:307)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:82)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:39)
+
+[Assets/Scripts/Editor/SceneSetup.cs line 307]
 
 [DragonPath] ✅ Enemies 生成完了
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
@@ -593,11 +689,11 @@ UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOpt
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:279)
-SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:52)
-SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:309)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:82)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:39)
 
-(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 279)
+(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 309)
 
 [DragonPath] ✅ Environment 生成完了
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
@@ -606,11 +702,11 @@ UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOpt
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-SceneSetup:CreateEnvironment () (at Assets/Scripts/Editor/SceneSetup.cs:399)
-SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:53)
-SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+SceneSetup:CreateEnvironment () (at Assets/Scripts/Editor/SceneSetup.cs:429)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:83)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:39)
 
-(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 399)
+(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 429)
 
 [DragonPath] ✅ UI 生成完了
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
@@ -619,11 +715,11 @@ UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOpt
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-SceneSetup:CreateUI () (at Assets/Scripts/Editor/SceneSetup.cs:463)
-SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:54)
-SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+SceneSetup:CreateUI () (at Assets/Scripts/Editor/SceneSetup.cs:493)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:84)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:39)
 
-(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 463)
+(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 493)
 
 [DragonPath] ✅ シーンのセットアップが完了しました！
 次のステップ:
@@ -636,14 +732,14 @@ UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOpt
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:56)
-SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:86)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:39)
 
-(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 56)
+(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 86)
 
-Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) (DefaultImporter) -> (Import Result ID: '23a5d87494e23b8461ec9c6c1932a70a') in 0.0226832 seconds [static dependencies only]. Details - ImportResultOutputID=8569d32f7fe5cafb183ae3aa540f6fb1 DependenciesID=75915fe1083d5180faf5026e9992c22b StaticDependenciesID=6529cb45466b33ca761b9cdf878c414f 
-Refreshing native plugins compatible for Editor in 5.69 ms, found 3 plugins.
-Asset Pipeline Refresh (id=ea261ad46d04b0a4d93b1ebb16d07b4c): Total: 0.163 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) (DefaultImporter) -> (Import Result ID: '7cd0aa1888f1142317f9026c7e06d94e') in 0.0111851 seconds [static dependencies only]. Details - ImportResultOutputID=8569d32f7fe5cafb183ae3aa540f6fb1 DependenciesID=99964236091af74daf52f96decc4b1f6 StaticDependenciesID=1b49c37d24ccbef0190bbc60e2ee8b4d 
+Refreshing native plugins compatible for Editor in 4.31 ms, found 3 plugins.
+Asset Pipeline Refresh (id=a0e788dec2d12e5438dd8f11e491a35b): Total: 0.142 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 [DragonPath] ✅ シーン保存完了: Assets/Scenes/SampleScene.unity
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -651,9 +747,9 @@ UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOpt
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:41)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:43)
 
-(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 41)
+(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 43)
 
 Batchmode quit successfully invoked - shutting down!
 [Physics::Module] Cleanup current backend.
@@ -666,14 +762,14 @@ Input System module state changed to: Shutdown.
 AcceleratorClientConnectionCallback - disconnected - :0
 Cleanup mono
 CodeReloadManager destroyed
-abort_threads: Failed aborting id: 0000000000004F24, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 0000000000002C10, mono_thread_manage will ignore it
 
-abort_threads: Failed aborting id: 000000000000467C, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 0000000000001CE0, mono_thread_manage will ignore it
 
-abort_threads: Failed aborting id: 0000000000004F24, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 0000000000002C10, mono_thread_manage will ignore it
 
-abort_threads: Failed aborting id: 000000000000467C, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 0000000000001CE0, mono_thread_manage will ignore it
 
-debugger-agent: Unable to listen on 3220
+debugger-agent: Unable to listen on 3152
 Exiting batchmode successfully now!
 Exiting without the bug reporter. Application will terminate with return code 0

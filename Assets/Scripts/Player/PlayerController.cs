@@ -79,7 +79,7 @@ public class PlayerController : MonoBehaviour
     {
         // カメラ参照がなければシーンから探す
         if (camController == null)
-            camController = FindFirstObjectByType<ThirdPersonCamera>();
+            camController = FindAnyObjectByType<ThirdPersonCamera>();
     }
 
     private void Update()
