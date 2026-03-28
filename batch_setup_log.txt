@@ -1,0 +1,679 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.0f1 (8cf496087c8f) revision 9237654'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ja' Physical Memory: 32696 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Yoshiko" at "2026-03-27T21:52:21.1642992Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-03-27T21:52:21Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Unity.exe
+-batchmode
+-nographics
+-projectPath
+C:/Users/kusam/DragonPath
+-executeMethod
+SceneSetup.BatchSetupScene
+-logFile
+C:/Users/kusam/DragonPath/batch_setup_log.txt
+-quit
+Successfully changed project path to: C:/Users/kusam/DragonPath
+C:/Users/kusam/DragonPath
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [15764]  Target information:
+
+Player connection [15764]  * "[IP] 192.168.1.207 [Port] 55505 [Flags] 2 [Guid] 1081555470 [EditorId] 1081555470 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U5OVHIO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15764]  * "[IP] 10.5.0.2 [Port] 55505 [Flags] 2 [Guid] 1081555470 [EditorId] 1081555470 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U5OVHIO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15764] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15764] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-15600" after 0.8 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Yoshiko"
+[Licensing::IpcConnector] LicenseClient-Yoshiko channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Yoshiko-6000.4.0" at "2026-03-27T21:52:23.6334686Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              2aab02540f2642dd9abe76469e271aaa
+  Correlation Id:          24810144783000506eec68b3bfc958d0
+  External correlation Id: 2103400429629822870
+  Machine Id:              kQ+/1dxljoRLVvsUg+EPbmf8dZE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Yoshiko-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 2.33s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Yoshiko-6000.4.0-notifications" at "2026-03-27T21:52:25.9678348Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 15669668846709-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 4.81s
+[Licensing::Module] Licensing is initialized (took 3.72s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.4.0f1 (8cf496087c8f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kusam/DragonPath/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+CodeReloadManager initialized
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016272 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.851 seconds
+Domain Reload Profiling: 2121ms
+	BeginReloadAssembly (436ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (229ms)
+	LoadAllAssembliesAndSetupDomain (485ms)
+		LoadAssemblies (377ms)
+		AnalyzeDomain (466ms)
+			TypeCache.Refresh (464ms)
+				TypeCache.ScanAssembly (435ms)
+	FinalizeReload (854ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (112ms)
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (253ms)
+			ProcessInitializeOnLoadMethodAttributes (162ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 57 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.11 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.ai.navigation@78534c21b27d)
+    com.unity.collab-proxy@2.11.4 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.collab-proxy@a5329f833fa8)
+    com.unity.ide.rider@3.0.39 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.ide.rider@4504839d03f7)
+    com.unity.ide.visualstudio@2.0.27 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.ide.visualstudio@dc1ddd4f09b6)
+    com.unity.inputsystem@1.19.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83)
+    com.unity.timeline@1.8.11 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.timeline@bfd27f8016ff)
+    com.unity.visualscripting@1.9.10 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.visualscripting@eb6004dcc707)
+    com.unity.searcher@4.9.4 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.searcher@d45a78918735)
+    com.unity.burst@1.8.28 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.burst@07790c2d06d9)
+    com.unity.mathematics@1.3.3 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.mathematics@19a9377c4ffa)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.2.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.test-framework.performance@0840f58e4562)
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a)
+    com.unity.render-pipelines.universal@17.4.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.render-pipelines.universal@0c5162adfb45)
+    com.unity.test-framework@1.6.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.test-framework@629486125cfc)
+    com.unity.ugui@2.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.ugui@3dd2fbd8c1f1)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.ext.nunit@d8c07649098d)
+    com.unity.render-pipelines.core@17.4.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.render-pipelines.core@6a60abc179f8)
+    com.unity.shadergraph@17.4.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.shadergraph@c6e5f4d3afa5)
+    com.unity.render-pipelines.universal-config@17.4.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.render-pipelines.universal-config@0db4263b9e6b)
+    com.unity.collections@6.4.0 (location: C:\Users\kusam\DragonPath\Library\PackageCache\com.unity.collections@538ace9075bc)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.04 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\kusam\DragonPath
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 72.2890ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/kusam/DragonPath
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+DisplayProgressbar: Compiling Scripts
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@07790c2d06d9\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 192.0793ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 137 defines and 340 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with Library\Bee\artifacts\1900b0aE.dag\Unity.Collections.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil.Rocks, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@07790c2d06d9\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 739.7736ms
+ExitCode: 0 Duration: 5s695ms
+[712/906    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[902/906    3s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[903/906    0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 137 defines and 340 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[904/906    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[905/906    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (5.62 seconds), 5 items updated, 906 evaluated
+AssetDatabase: script compilation time: 6.645497s
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 4.92 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.270 seconds
+Domain Reload Profiling: 10945ms
+	BeginReloadAssembly (615ms)
+		DisableScriptedObjects (14ms)
+		CreateAndSetChildDomain (166ms)
+	RebuildCommonClasses (96ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (396ms)
+	LoadAllAssembliesAndSetupDomain (1538ms)
+		LoadAssemblies (1320ms)
+		AnalyzeDomain (533ms)
+			TypeCache.Refresh (386ms)
+				TypeCache.ScanAssembly (367ms)
+			BuildScriptInfoCaches (123ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (8271ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (71ms)
+			BeforeProcessingInitializeOnLoad (470ms)
+			ProcessInitializeOnLoadAttributes (6929ms)
+			ProcessInitializeOnLoadMethodAttributes (183ms)
+			AfterProcessingInitializeOnLoad (59ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 10.45 ms, found 3 plugins.
+(Values over 0.050ms)
+Asset Pipeline Refresh (id=cd7aec4c16aa4ce42941c357ed24391a): Total: 19.644 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=9404 ms
+		Asset DB Callback time: managed=566 ms, native=69 ms
+		Scripting: domain reloads=1, domain reload time=2722 ms, compile time=6649 ms, other=228 ms
+		Project Asset Count: scripts=1274, non-scripts=2332
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 57.635ms
+	ApplyChangesToAssetFolders: 1.616ms
+	Scan: 339.229ms
+	OnSourceAssetsModified: 1.403ms
+	CategorizeScriptCompilationAssets: 113.131ms
+	ProcessAssetsWithTransientArtifactChanges: 161.389ms
+	CategorizeAssets: 85.697ms
+	CompileScripts: 6648.758ms
+	ImportOutOfDateAssets: 8295.585ms (8292.023ms without children)
+		UnloadImportedAssets: 1.464ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.904ms
+		OnDemandSchedulerStart: 1.150ms
+	PostProcessAllAssets: 571.468ms
+		XRBuildSystem.XRAssetImported 2.625ms
+		VCAutoAddAssetPostprocess 2.415ms
+		PostProcessCallbackCreateDeferredMaterials 0.060ms
+		MonoPostProcessAllAssets: 565.207ms
+			AssetPostprocessor.OnPostprocessAllAssets 340.598ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 92.359ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 32.970ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 28.570ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.955ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 4.283ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 4.242ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 2.996ms
+			AssetChangedListener.OnPostprocessAllAssets 2.855ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.759ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.577ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.394ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.060ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.963ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.943ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.921ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.805ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.743ms
+			AssetEvents.OnPostprocessAllAssets 0.667ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.603ms
+			PostProcessor.OnPostprocessAllAssets 0.581ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.443ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.431ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.385ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.385ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.349ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.327ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.306ms
+			SyncVS.PostprocessSyncProject 0.306ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.293ms
+	PostAssetChangesProfiler: 13.395ms
+	UnloadStreamsBegin: 5.240ms
+	PersistCurrentRevisions: 0.178ms
+	GenerateScriptTypeHashes: 6.224ms
+	GenerateScriptTypeSerializationHashes: 12.921ms
+	Untracked: 3342.667ms
+
+Application.AssetDatabase Initial Refresh End
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Scanning for USB devices : 4.968ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-DragonPath
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6322 unused Assets / (3.1 MB). Loaded Objects now: 7157.
+Memory consumption went from 199.6 MB to 196.5 MB.
+Total: 19.732000 ms (FindLiveObjects: 1.032500 ms CreateObjectMapping: 0.774900 ms MarkObjects: 13.998700 ms  DeleteObjects: 3.921000 ms)
+
+[DragonPath] === バッチセットアップ開始 ===
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:30)
+
+(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 30)
+
+Opening scene 'Assets/Scenes/SampleScene.unity'
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            22.739 ms
+	Integration:            326.723 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.010 ms
+	Total Operation Time:   349.479 ms
+Unloading 2 unused Assets / (1.1 KB). Loaded Objects now: 7176.
+Memory consumption went from 183.9 MB to 183.9 MB.
+Total: 25.805900 ms (FindLiveObjects: 1.028200 ms CreateObjectMapping: 0.447100 ms MarkObjects: 24.288100 ms  DeleteObjects: 0.040100 ms)
+
+[DragonPath] ✅ Managers 生成完了
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SceneSetup:CreateManagers () (at Assets/Scripts/Editor/SceneSetup.cs:85)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:48)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+
+(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 85)
+
+Tag: Ground is not defined.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:set_tag (string)
+SceneSetup:CreateTerrain () (at Assets/Scripts/Editor/SceneSetup.cs:98)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:49)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+
+[Assets/Scripts/Editor/SceneSetup.cs line 98]
+
+[DragonPath] ✅ Terrain 生成完了
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SceneSetup:CreateTerrain () (at Assets/Scripts/Editor/SceneSetup.cs:147)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:49)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+
+(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 147)
+
+[DragonPath] ✅ Player 生成完了
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SceneSetup:CreatePlayer () (at Assets/Scripts/Editor/SceneSetup.cs:209)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:50)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+
+(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 209)
+
+[DragonPath] ✅ Camera 生成完了
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SceneSetup:CreateCamera () (at Assets/Scripts/Editor/SceneSetup.cs:250)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:51)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+
+(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 250)
+
+A game object can only be in one layer. The layer needs to be in the range [0...31]
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:set_layer (int)
+SceneSetup:CreateEnemyObject (string,UnityEngine.Vector3) (at Assets/Scripts/Editor/SceneSetup.cs:285)
+SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:272)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:52)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+
+[Assets/Scripts/Editor/SceneSetup.cs line 272]
+
+A game object can only be in one layer. The layer needs to be in the range [0...31]
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:set_layer (int)
+SceneSetup:CreateEnemyObject (string,UnityEngine.Vector3) (at Assets/Scripts/Editor/SceneSetup.cs:285)
+SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:272)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:52)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+
+[Assets/Scripts/Editor/SceneSetup.cs line 272]
+
+A game object can only be in one layer. The layer needs to be in the range [0...31]
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:set_layer (int)
+SceneSetup:CreateEnemyObject (string,UnityEngine.Vector3) (at Assets/Scripts/Editor/SceneSetup.cs:285)
+SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:272)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:52)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+
+[Assets/Scripts/Editor/SceneSetup.cs line 272]
+
+A game object can only be in one layer. The layer needs to be in the range [0...31]
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:set_layer (int)
+SceneSetup:CreateEnemyObject (string,UnityEngine.Vector3) (at Assets/Scripts/Editor/SceneSetup.cs:285)
+SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:272)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:52)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+
+[Assets/Scripts/Editor/SceneSetup.cs line 272]
+
+A game object can only be in one layer. The layer needs to be in the range [0...31]
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:set_layer (int)
+SceneSetup:CreateEnemyObject (string,UnityEngine.Vector3) (at Assets/Scripts/Editor/SceneSetup.cs:285)
+SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:272)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:52)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+
+[Assets/Scripts/Editor/SceneSetup.cs line 272]
+
+A game object can only be in one layer. The layer needs to be in the range [0...31]
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:set_layer (int)
+SceneSetup:CreateEnemyObject (string,UnityEngine.Vector3) (at Assets/Scripts/Editor/SceneSetup.cs:285)
+SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:272)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:52)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+
+[Assets/Scripts/Editor/SceneSetup.cs line 272]
+
+A game object can only be in one layer. The layer needs to be in the range [0...31]
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:set_layer (int)
+SceneSetup:CreateDragonBoss (UnityEngine.Vector3,UnityEngine.Transform) (at Assets/Scripts/Editor/SceneSetup.cs:313)
+SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:277)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:52)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+
+[Assets/Scripts/Editor/SceneSetup.cs line 277]
+
+[DragonPath] ✅ Enemies 生成完了
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SceneSetup:CreateEnemies () (at Assets/Scripts/Editor/SceneSetup.cs:279)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:52)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+
+(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 279)
+
+[DragonPath] ✅ Environment 生成完了
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SceneSetup:CreateEnvironment () (at Assets/Scripts/Editor/SceneSetup.cs:399)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:53)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+
+(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 399)
+
+[DragonPath] ✅ UI 生成完了
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SceneSetup:CreateUI () (at Assets/Scripts/Editor/SceneSetup.cs:463)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:54)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+
+(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 463)
+
+[DragonPath] ✅ シーンのセットアップが完了しました！
+次のステップ:
+1. NavMesh を Bake する (Window > AI > Navigation)
+2. アニメーターコントローラーをプレイヤー/敵に割り当てる
+3. Audio Clips を AudioManager にアサインする
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SceneSetup:RunSetup () (at Assets/Scripts/Editor/SceneSetup.cs:56)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:37)
+
+(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 56)
+
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) (DefaultImporter) -> (Import Result ID: '23a5d87494e23b8461ec9c6c1932a70a') in 0.0226832 seconds [static dependencies only]. Details - ImportResultOutputID=8569d32f7fe5cafb183ae3aa540f6fb1 DependenciesID=75915fe1083d5180faf5026e9992c22b StaticDependenciesID=6529cb45466b33ca761b9cdf878c414f 
+Refreshing native plugins compatible for Editor in 5.69 ms, found 3 plugins.
+Asset Pipeline Refresh (id=ea261ad46d04b0a4d93b1ebb16d07b4c): Total: 0.163 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[DragonPath] ✅ シーン保存完了: Assets/Scenes/SampleScene.unity
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SceneSetup:BatchSetupScene () (at Assets/Scripts/Editor/SceneSetup.cs:41)
+
+(Filename: Assets/Scripts/Editor/SceneSetup.cs Line: 41)
+
+Batchmode quit successfully invoked - shutting down!
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Yoshiko-6000.4.0-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Yoshiko-6000.4.0 channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000004F24, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000467C, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000004F24, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000467C, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 3220
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

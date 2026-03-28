@@ -34,6 +34,8 @@ public static class SceneSetup
         var scene = UnityEditor.SceneManagement.EditorSceneManager.OpenScene(
             scenePath, UnityEditor.SceneManagement.OpenSceneMode.Single);
 
+        // 既存オブジェクトをクリア（再実行時の重複防止）
+        ClearScene();
         RunSetup();
 
         // シーンを保存
@@ -41,6 +43,34 @@ public static class SceneSetup
         Debug.Log(saved
             ? $"[DragonPath] ✅ シーン保存完了: {scenePath}"
             : "[DragonPath] ⚠️ シーンの保存に失敗しました");
+    }
+
+    private static void ClearScene()
+    {
+        // DragonPath が生成したルートオブジェクトを名前で削除
+        string[] targets = {
+            "--- MANAGERS ---", "--- ENEMIES ---", "--- ENVIRONMENT ---", "--- UI ---",
+            "Ground", "Wall_N", "Wall_S", "Wall_E", "Wall_W",
+            "Player", "Main Camera", "Directional Light"
+        };
+        foreach (var name in targets)
+        {
+            var go = GameObject.Find(name);
+            if (go != null) Object.DestroyImmediate(go);
+        }
+        // 岩・木を名前プレフィックスで削除
+        foreach (var go in Object.FindObjectsByType<GameObject>(FindObjectsSortMode.None))
+        {
+            if (go == null) continue;
+            if (go.name.StartsWith("Rock_") || go.name.StartsWith("Tree_") ||
+                go.name.StartsWith("Enemy_") || go.name == "DragonBoss_Valdras" ||
+                go.name == "BossArena" || go.name == "TreasureChest" ||
+                go.name == "NPC_Villager" || go.name == "GameCanvas")
+            {
+                Object.DestroyImmediate(go);
+            }
+        }
+        Debug.Log("[DragonPath] 🗑 シーンクリア完了");
     }
 
     private static void RunSetup()

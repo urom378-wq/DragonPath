@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
 
     public enum GameState { Playing, Paused, Inventory, Dialogue, GameOver, Victory }
 
-    private GameState _state = GameState.Playing;
+    private GameState _state = GameState.Paused; // Startで Playing へ遷移させるため Paused で初期化
     public GameState State => _state;
     public bool IsPlaying => _state == GameState.Playing;
 
